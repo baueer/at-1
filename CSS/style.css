@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  background: #fff;
+  background-size: cover;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+ul {
+  list-style-type: circle;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.bg-custom {
+  background-color: #0f5646; /* #136c58 - bg */
+}
+.jumbotron {
+  background: url(../SOURCES/jumbotron.jpg) repeat-x;
+  background-position: center top;
+  background-size: auto;
+  height: 550px;
+}
+.blockquote-footer {
+  color: #f6f6f6;
+}
+.page-footer {
+  background-color: #11614f;
+}
+.footer-links {
+  list-style: none;
+}
+.font-weight-bold, .font-weight-normal {
+  color: #333333;
+}
+a.font-weight-normal:hover {
+  color: #848484;
+}
+.mt-list {
+  margin-top: -15px;
+  font-weight: 300;
+  list-style-type: upper-roman;
+}
+
+ul.dash {
+  list-style-type: none;
+}
+ul.dash > li {
+  text-indent: -15px;
+}
+ul.dash > li:before {
+  content: "- ";
+}
+mark {
+  background-color: #b7ccc7;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    background-position: left top;
+    height: 300px;
+  }
+  .display-4 {
+    font-size: 3.1rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .jumbotron > .container > h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}
